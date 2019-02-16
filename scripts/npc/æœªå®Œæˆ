@@ -1,0 +1,128 @@
+OVERHEAD_ALERT_BLOCK = 8
+OVERHEAD_ALERT_BONUS_POISON_DAMAGE = 9
+OVERHEAD_ALERT_BONUS_SPELL_DAMAGE = 4
+OVERHEAD_ALERT_CRITICAL = 2
+OVERHEAD_ALERT_DAMAGE = 6
+OVERHEAD_ALERT_DEATH = 20
+OVERHEAD_ALERT_DENY = 1
+OVERHEAD_ALERT_DISABLE_RESIST = 19
+OVERHEAD_ALERT_EVADE = 7
+OVERHEAD_ALERT_GOLD = 0
+OVERHEAD_ALERT_HEAL = 10
+OVERHEAD_ALERT_INCOMING_DAMAGE = 17
+OVERHEAD_ALERT_LAST_HIT_CLOSE = 14
+OVERHEAD_ALERT_LAST_HIT_EARLY = 13
+OVERHEAD_ALERT_LAST_HIT_MISS = 15
+OVERHEAD_ALERT_MAGICAL_BLOCK = 16
+OVERHEAD_ALERT_MANA_ADD = 11
+OVERHEAD_ALERT_MANA_LOSS = 12
+OVERHEAD_ALERT_MISS = 5
+OVERHEAD_ALERT_OUTGOING_DAMAGE = 18
+OVERHEAD_ALERT_XP = 3
+
+ 难度选择界面的文字说明改成E/N/H/L
+
+1.经验条可以用两条线段表示
+
+2.地上的物品没法看星
+
+*3.音效
+
+4.卡牌交易（人才市场）
+
+5.一键分配狗粮
+
+6.娱乐模式（禁三幻神，自动加经验金钱）
+
+7.一键丢弃分配
+
+8.增强所有培育的强度
+
+9.选卡界面聊天
+
+10.组合提示
+
+11.钱超过上限
+
+13.觉醒还是要加一点条件
+
+14.清除物品改成用table队列，而不是新建计时器
+
+15.卡怪（尼玛老鼠无敌了）
+
+16.减速不叠加说明
+
+17.减伤说明
+
+18.研究一下AI异步关闭
+
+20.特效削弱
+
+22.神绮技能，任务
+
+24.首冲活动（？）
+
+25.觉醒道具可以通过达成目标获得
+
+26.神绮
+3技能 主动释放 翅膀上带激光，自动扫射周围单位
+
+4技能 有概率升华一个卡组内/魔界之门召唤出来的单位,使其获得特殊能力
+
+27.英雄天赋
+
+29.抽卡改成 小型召唤阵，大型召唤阵
+
+河童（有专用的物品道具）可以使用道具变身
+
+天魔大人
+
+蕾拉弄个指挥技能
+
+大上海
+
+- 部分技能释放超出范围会使AI失效
+
+首领牌
+
+死敌效果：如果圣白莲在场上，则会终止聆听，并阻止圣白莲传教
+
+妹红 NEET 死敌效果
+
+- 大量砍粒子特效
+
+- 文文攻击机制还是不太完善
+
+- NEET优化
+
+- 夜雀 联动 夜盲症
+
+- AI自动施法
+
+- 生命游戏系数上调至1.5
+- 觉现在可以在前一次恐怖回忆术结算之后再次加上恐怖回忆术
+- 新增伊吹萃香
+- 新增星熊勇仪
+
+- 球撞到 发动技能。内置冷却2秒。
+
+- 月球 
+阿波罗反射镜，从本体射向月球，反射到周围单位
+月狂冲击，每次撞到敌方会造成伤害并击退
+
+- 地球
+邪秽缠身，对目标造成伤害并缠绕0.5秒
+地狱的降雨，在目标区域降雨并持续造成伤害
+
+- 异界
+黄昏薄暮，留下薄雾，造成持续伤害和吸引
+地狱的非理想弹幕，切线斜方向发射弹幕
+
+- 三位一体的狂想曲
+本体会不停的变换形态，变换到该形态球体击中目标释放技能会产生一个三角，形成三个三角时，会链接三个三角，并用激光对周围单位进行扫射
+
+- 削弱纯狐的纯化，削弱赫卡的吸引
+
+../dota_addons/harvest_moon/
+
+../dota_addons/thd_test
